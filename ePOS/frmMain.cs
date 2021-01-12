@@ -4,11 +4,11 @@ using System.Windows.Forms;
 
 namespace ePOS
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
         private MySqlConnection theConnection = Extensions.theConnection;
 
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
         }
